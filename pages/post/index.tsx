@@ -15,9 +15,6 @@ export default function PostListPage (props: PostListPageProps) {
           </Link>
         </div>
         <div>
-          <a  href="/about">Go to about</a>
-        </div>
-        <div>
           <button onClick={() => router.push('/about')}>
             <a>Click Go to about</a>
           </button>
